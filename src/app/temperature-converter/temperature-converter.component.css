@@ -1,0 +1,12 @@
+.temperature-converter {
+  max-width: 300px;
+  margin: auto;
+}
+
+.temperature-converter div {
+  margin-bottom: 15px;
+}
+
+.temperature-converter label {
+  margin-right: 10px;
+}
