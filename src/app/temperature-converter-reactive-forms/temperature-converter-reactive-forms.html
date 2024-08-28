@@ -1,0 +1,23 @@
+<div class="temperature-converter">
+  <h2>Temperature Converter</h2>
+
+  <form [formGroup]="temperatureForm">
+    <div>
+      <label for="celsius">Celsius:</label>
+      <input
+        type="number"
+        id="celsius"
+        formControlName="celsius"
+      />
+    </div>
+
+    <div>
+      <label for="fahrenheit">Fahrenheit:</label>
+      <input
+        type="number"
+        id="fahrenheit"
+        formControlName="fahrenheit"
+      />
+    </div>
+  </form>
+</div>
